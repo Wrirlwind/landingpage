@@ -1,0 +1,99 @@
+/* manipula as propriedades do corpo da página HTML*/
+body {
+
+   color: white; 
+   background-color: rgb(50, 50, 184);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* manipula as propriedades da lista de itens especificada no HTML */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+/* manipula as propriedades dos links dos botões em forma de texto no HTML*/
+a {
+    color:white;
+    text-decoration: none;
+}
+
+/* manipula as propriedades dos da imagem de perfil (header) do avatar no HTML*/
+header img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+
+/* manipula as propriedades dos da imagem de perfil (header) do avatar no HTML*/
+footer img {
+
+    width: 40px;
+    height: 40px;
+  
+    
+}
+
+/* manipula as propriedades do elemento link nas imagens dentro do rodapé no HTML*/
+footer a {
+
+    margin: 20px;
+    text-align: center;
+   
+      
+}
+
+/* manipula as propriedades do parágrafo dentro do rodapé no HTML*/
+footer p {
+
+    margin-top: 40px;
+      
+}
+
+/* manipula as propriedades do rodapé no HTML*/
+footer {
+
+    display: flex;
+    justify-content: center;
+      
+}
+/* manipula as propriedades da imagem contida na div referente a classe no HTML*/
+.CentralizaImagem {
+
+    text-align: center;
+    padding: 80px;
+
+}
+
+/* manipula as propriedades do elemento de titulo 1 no HTML*/
+h1 {
+
+    color: silver;
+    
+}
+
+/* manipula as propriedades do elemento de titulo 3 no HTML*/
+h3 {
+
+    color: silver;
+}
+
+/* manipula as propriedades do elemento parágrafo no HTML*/
+p {
+
+    text-align: justify;
+
+}
+
+/* manipula as propriedades do elemento de navegação de menus inserindo uma animação*/
+nav a:hover {
+
+color: gold;
+
+}
